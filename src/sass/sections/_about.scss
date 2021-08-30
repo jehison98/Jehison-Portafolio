@@ -1,0 +1,35 @@
+@use "../vars" as c;
+
+#about {
+
+    ul {
+        li {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .section-btn {
+        margin: 1rem auto;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .aditional-info {
+        margin-top: 1rem;
+
+        li {
+            width: 100%;
+            text-align: center;
+            background-color: c.$black3;
+            padding: 0.5rem 0;
+
+            .text-color {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+
+}

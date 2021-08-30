@@ -1,0 +1,20 @@
+#home {
+
+    .greeting {
+        text-transform: uppercase;
+        padding-top: 3rem;
+
+        .text-color {
+            text-transform: none;
+        }
+    }
+
+    .section-btn {
+        text-decoration: none; 
+    }
+
+    p {
+        text-align: left;
+    }
+
+}

@@ -1,0 +1,86 @@
+@use "../vars" as c;
+
+#body-overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: c.$black1;
+    opacity: 0;
+    z-index: 980;
+    transition: opacity 0.5s ease;
+}
+
+#nav-btn {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    top: 15px;
+    right: 20px;
+    background-color: c.$black4;
+    color: c.$white1;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    z-index: 999;
+    transition: background-color 0.5s ease;
+
+    &:hover {
+        background-color: c.$yellow1;
+    }
+}
+
+#navbar {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    background-color: c.$black2;
+    color: c.$white1;
+    width: 100vw;
+    height: 100vh;
+    z-index: 990;
+    transition: left 0.5s ease;
+
+    img {
+        width: 150px;
+        height: 150px;
+        border: 5px solid c.$yellow1;
+        border-radius: 50%;
+    }
+
+    .text-title {
+        margin: 1rem 0;
+        h3, h4 {
+            margin-bottom: 0.2rem;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+    }
+
+    ul {
+        li {
+            padding: 0;
+            list-style: none;
+
+            a{
+                padding: 0.5rem 0;
+                margin: 0.8rem 0.4rem;
+                display: block;
+                width: 100%;
+                color: c.$white1;
+                text-decoration: none;
+            }
+        }
+    }
+
+}

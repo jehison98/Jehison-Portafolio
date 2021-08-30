@@ -1,0 +1,63 @@
+@media only screen and (min-width: 576px) {
+    #navbar {
+        width: 60vw !important;
+    }
+
+    #portafolio {
+        .img-container {
+            height: 310px !important;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    #portafolio {
+        .img-container {
+            height: 210px !important;
+        }
+    }
+
+    #skills {
+        #skills-imgs {
+            & > div {
+                padding: 2rem !important;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    body {
+        padding-left: 25vw;
+    }
+    section {
+        padding-left: 1rem;
+    }
+
+    #nav-btn {
+        display: none !important;
+    }
+    #navbar {
+        display: flex !important;
+        width: 25vw !important;
+        left: 0% !important;
+    }
+
+    #portafolio {
+        .img-container {
+            height: 136px !important;
+        }
+    }
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    #portafolio {
+        .img-container {
+            height: 170px !important;
+        }
+    }
+}

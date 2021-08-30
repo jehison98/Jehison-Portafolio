@@ -1,0 +1,139 @@
+@use "../vars" as c;
+
+#contact {
+    h2 {
+        margin: 2rem 0;
+    }
+
+    ul {
+        li {
+            margin-bottom: 1.5rem;
+            a {
+                color: c.$white1;
+            }
+            i {
+                margin-right: 0.3rem;
+                color: c.$yellow1;
+            }
+        }
+    }
+
+    .form-group {
+        margin-top: 0.5rem;
+    }
+
+    label {
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+
+    input, textarea {
+        padding-right: 2rem;
+        border: none;
+        border-radius: 0;
+        background-color: c.$black3;
+        caret-color: c.$white1;
+        color: c.$white1;
+    }
+
+    input:focus, textarea:focus {
+        box-shadow: none;
+    }
+
+    .alert-message {
+        display: none;
+        opacity: 0;
+        color: c.$error;
+        transition: opacity 0.5s ease;
+    }
+
+    #send-btn {
+        margin: 1rem 0;
+    }
+
+}
+
+#sendModal {
+
+    .modal-header {
+        display: block;
+        border: none;
+        padding-bottom: 0;
+        .modal-title {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            width: 100%;
+            .dots {
+                height: 100%;
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                margin: 0px 0.2rem;
+                background-color: c.$black2;
+                animation: loading-dots 1s ease infinite;
+
+                &:nth-of-type(2){
+                    animation-delay: 0.33s;
+                }
+                
+                &:nth-of-type(3){
+                    animation-delay: 0.66s;
+                }
+            }
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+
+    .modal-body {
+        margin: 0px auto;
+        padding: 0;
+        .loader {
+            margin: 2rem 0;
+            width: 100px;
+            height: 100px;
+            border: 10px solid c.$black4;
+            border-left-color: c.$yellow1;
+            border-radius: 50%;
+            animation: loader linear 1s infinite;
+        }
+    }
+    
+}
+
+#times-icon, #check-icon {
+    display: none;
+    font-size: 100px;
+    transform: scale(5);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+#times-icon {
+    color: c.$error;
+}
+#check-icon {
+    color: c.$success;
+}
+
+
+@keyframes loader {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes loading-dots {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-5px);
+    } 
+}

@@ -1,0 +1,43 @@
+@use "../vars" as c;
+
+#footer {
+    width: 100%;
+    background-color: c.$black2;
+    color: c.$white1;
+    padding: 0.5rem 0;
+
+    .social-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+
+        li {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 0.2rem;
+            background-color: c.$black3;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            transition: background-color 0.5s ease;
+            a {
+                color: c.$white1;
+            }
+
+            &:hover {
+                background-color: rgba($color: c.$yellow1, $alpha: 0.9);
+            }
+        }
+    }
+
+    p {
+        text-align: center;
+        font-weight: 300;
+        opacity: 0.6;
+        font-size: 0.8rem;
+        margin: 0;
+    }
+}

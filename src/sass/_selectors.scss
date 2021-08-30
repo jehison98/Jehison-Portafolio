@@ -1,0 +1,45 @@
+@use "./vars" as c;
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: c.$yellow1;
+    border-radius: 5px;
+}
+  
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: c.$black1;
+    letter-spacing: 1px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+section {
+    padding: 3rem 0;
+    color: c.$white1;
+}
+
+hr {
+    max-width: 100%;
+    border: 0;
+    background-image: linear-gradient(to right, transparent, c.$white1, transparent);
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

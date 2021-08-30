@@ -1,0 +1,37 @@
+@use "./vars" as c;
+
+.section-btn {
+    padding: 0.3rem 1.2rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    background-color: c.$black3;
+    color: c.$white1;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.section-btn:hover {
+    background-color: c.$yellow1;
+    color: c.$white1;
+}
+
+.text-color {
+    color: c.$yellow1;
+}
+
+.extra-padding {
+    padding: 0.5rem 1.5rem;
+}
+
+.close-btn{
+    float: right;
+    font-size: 2.5rem;
+    color: rgba($color: c.$yellow1, $alpha: 0.9);
+    cursor: pointer;
+    transition: transform 0.5s ease;
+
+    &:hover {
+        transform: rotate(360deg) scale(1.3);
+    }
+}

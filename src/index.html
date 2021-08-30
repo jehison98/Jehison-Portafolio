@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="body-overlay"></div>
+
+    <div id="nav-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <nav id="navbar">
+        <div class="container-fluid">
+
+            <img class="img-fluid" src="./assets/img/profile-pics/saitama-pic.png" alt="profile image">
+
+            <div class="text-title">
+                <h3>Jehison Gutiérrez de la Barrera</h3>
+                <h4>Full-Stack JavaScript Developer</h4>
+            </div>
+
+            <ul>
+                <li class="section-btn">
+                    <a href="#home">Home</a>
+                </li>
+
+                <li class="section-btn">
+                    <a href="#about">About</a>
+                </li>
+
+                <li class="section-btn">
+                    <a href="#portafolio">Portafolio</a>
+                </li>
+
+                <li class="section-btn">
+                    <a href="#skills">Skills</a>
+                </li>
+
+                <li class="section-btn">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="container">
+
+            <div class="greeting">
+                <h4>Hi There !</h4>
+                <h2>I'm <span class="text-color">Jehison Gutiérrez de la Barrera</span> </h2>
+            </div>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, quos id quas molestias vitae architecto
+                optio ab. Nisi ipsum tenetur temporibus quibusdam cumque. Voluptatem autem nesciunt error ea. Magni,
+                nesciunt! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste consectetur sed quidem quaerat
+                facere nostrum, beatae veniam laudantium exercitationem dolorum eum voluptatum enim amet? Temporibus ab
+                velit quos omnis recusandae.
+            </p>
+
+            <a href="#about" class="section-btn">
+                About me
+                <i class="fas fa-user"></i>
+            </a>
+
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h1 class="text-center"><span class="text-color">About</span> me</h1>
+            <hr>
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="extra-padding">
+                        <ul>
+                            <li>
+                                Name: <span class="text-color">Jehison Gutiérrez de la Barrera</span>
+                            </li>
+                            <li>
+                                Age: <span class="text-color">22</span>
+                            </li>
+                            <li>
+                                Post: <span class="text-color">Full-Stack JavaScript Developer</span>
+                            </li>
+                            <li>
+                                Main Language: <span class="text-color">Spanish</span>
+                            </li>
+                            <li>
+                                Extra languages: <span class="text-color"> English (B2)</span>
+                            </li>
+                        </ul>
+
+                        <a class="section-btn">Download CV <i class="fas fa-download"></i></a>
+
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <ul class="aditional-info">
+                        <div class="row">
+
+                            <div class="col-lg-6">
+                                <li>
+                                    <span class="text-color">2+</span>
+                                    <br>
+                                    Years of Experience
+                                </li>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <li>
+                                    <span class="text-color">100+</span>
+                                    <br>
+                                    Projects Completed
+                                </li>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <li>
+                                    <span class="text-color">140+</span>
+                                    <br>
+                                    Happy Customers
+                                </li>
+                            </div>
+
+                        </div>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="portafolio">
+        <div class="container">
+
+            <h1 class="text-center">My <span class="text-color">Portafolio</span></h1>
+            <hr>
+
+            <div class="row">
+                <!-- Added by Js -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="portafolioModal" tabindex="-1" aria-labelledby="portafolioModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <i class="far fa-times-circle close-btn" data-bs-dismiss="modal" aria-label="Close"></i>
+                    <h1 class="modal-title" id="portafolioModalLabel">Title</h1>
+                    <h4>Subtitle</h4>
+                </div>
+                <hr>
+                <div class="modal-body">
+                    <img class="img-fluid" src="" alt="">
+                    <i class="fas fa-chevron-left"></i>
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <hr>
+                <div class="modal-footer">
+                    <a class="go-site" href="#" target="_blank">Go to the site <i class="fas fa-mouse-pointer"></i></a>
+                    <p>Description of the Project</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="skills">
+        <div class="container">
+
+            <h1 class="text-center">My <span class="text-color">Skills</span></h1>
+            <hr>
+
+            <div id="skills-imgs" class="row">
+                <div class="col-4 col-lg-3">
+                    <img class="img-fluid" src="./assets/img/skills/html.svg" alt="HTML logo" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="HTML">
+                </div>
+                <div class="col-4 col-lg-3">
+                    <img class="img-fluid" src="./assets/img/skills/css3.svg" alt="CSS 3 logo" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="CSS 3">
+                </div>
+                <div class="col-4 col-lg-3">
+                    <img class="img-fluid" src="./assets/img/skills/javascript.svg" alt="JavaScript logo"
+                        data-bs-toggle="tooltip" data-bs-placement="top" title="JavaScript">
+                </div>
+                <div class="col-4 col-lg-3">
+                    <img class="img-fluid" src="./assets/img/skills/nodejs.svg" alt="Node Js logo" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="Node Js">
+                </div>
+                <div class="col-4 col-lg-3">
+                    <img class="img-fluid" src="./assets/img/skills/c-sharp.svg" alt="C# logo" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="C#">
+                </div>
+                <div class="col-4 col-lg-3">
+                    <img class="img-fluid" src="./assets/img/skills/webpack.svg" alt="Webpack logo"
+                        data-bs-toggle="tooltip" data-bs-placement="top" title="Webpack">
+                </div>
+                <div class="col-4 col-lg-3">
+                    <img class="img-fluid" src="./assets/img/skills/bootstrap.svg" alt="Bootstrap logo"
+                        data-bs-toggle="tooltip" data-bs-placement="top" title="Bootstrap">
+                </div>
+                <div class="col-4 col-lg-3">
+                    <img class="img-fluid" src="./assets/img/skills/sass.svg" alt="Sass Js logo" data-bs-toggle="tooltip"
+                        data-bs-placement="top" title="Sass">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+
+            <h1 class="text-center"><span class="text-color">Contact </span>Me</h1>
+            <hr>
+
+
+            <div class="row">
+
+                <div class="col-md-5">
+                    <h2>Contact <span class="text-color">Info</span></h2>
+                    <ul>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:jehison3098@gmail.com">jehison3098@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                            <a href="https://wa.me/15551234567?text=Hello,%20Jehison!" target="_blank">+52
+                                735-123-4567</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:7351234567">+52 735-123-4567</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-7">
+                    <h2><span class="text-color">Send Me </span>a Message</h2>
+                    <form id="contact-form" role="form">
+
+                        <div id="form-name" class="form-group">
+                            <label for="form-name">Name</label>
+                            <input type="text" class="form-control" placeholder="Name" name="name" required>
+                            <span class="alert-message">Wrong name! Please write a correct name</span>
+                        </div>
+
+                        <div id="form-email" class="form-group">
+                            <label for="form-email">Email</label>
+                            <input type="email" class="form-control" placeholder="Email" name="email" required>
+                            <span class="alert-message">Wrong email! Please write a correct email</span>
+                        </div>
+
+                        <div id="form-phone" class="form-group">
+                            <label for="form-phone">Phone</label>
+                            <input type="tel" class="form-control" placeholder="Phone" name="phone" required>
+                            <span class="alert-message">Wrong phone! Please write a correct phone</span>
+                        </div>
+
+                        <div id="form-message" class="form-group">
+                            <label for="form-message">Message</label>
+                            <textarea class="form-control" placeholder="Message" name="message" rows="3"
+                                required></textarea>
+                            <span class="alert-message">Wrong message! Please write a correct message</span>
+                        </div>
+
+                        <button id="send-btn" class="section-btn" type="submit">
+                            Send
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="sendModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="sendModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="sendModalLabel">
+                        Sending
+                        <div class="dots"></div>
+                        <div class="dots"></div>
+                        <div class="dots"></div>
+                    </h3>
+                </div>
+                <div class="modal-body">
+                    <div id="spin-loader" class="loader"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+
+            <ul class="social-media">
+                <li>
+                    <a href="https://github.com/jehison98?tab=repositories" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/jehison-gutierrez-de-la-barrera-159022192/" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:jehison3098@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <p>Developed by Jehison G.B. | 2021</p>
+
+        </div>
+    </footer>
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
