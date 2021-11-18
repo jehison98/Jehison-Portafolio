@@ -6,9 +6,15 @@
     #skills-imgs {
         & > div {
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
+            flex-direction: column;
             padding: 1rem;
+            text-align: center;
+
+            p {
+                margin: 0.5rem 0 0 0;
+            }
         }
     }
 }
