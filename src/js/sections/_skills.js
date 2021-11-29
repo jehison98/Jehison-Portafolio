@@ -6,7 +6,7 @@ skillsData.forEach((element) => {
   const div = document.createElement("div");
   const img = document.createElement("img");
   const name = document.createElement("p");
-  div.classList.add("col-3", "col-lg-3");
+  div.classList.add("col-4", "col-md-3");
   img.classList.add("img-fluid");
   img.setAttribute("src", element.imgUrl);
   img.setAttribute("alt", element.name);

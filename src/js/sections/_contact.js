@@ -173,7 +173,7 @@ function sendValues() {
     const sendModal = document.getElementById('sendModal');
     const sendModalPopup = new bootstrap.Modal(sendModal, {});
 
-    let url = "http://localhost:5000/";
+    let url = "https://nodejs-nodemail.herokuapp.com/";
     let formData = {};
 
     sendModalPopup.show();
