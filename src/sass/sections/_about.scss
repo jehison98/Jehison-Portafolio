@@ -1,35 +1,54 @@
 @use "../vars" as c;
 
 #about {
-
-    ul {
-        li {
-            margin-bottom: 1rem;
-        }
+  ul {
+    li {
+      margin-bottom: 1rem;
     }
+    .en-cert {
+      a {
+        color: c.$yellow1;
+        i {
+          color: c.$white1;
+        }
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .cv-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 
     .section-btn {
-        margin: 1rem auto;
+      margin: 0.5rem 0;
+
+      i {
+        margin-left: 0.5rem;
+      }
     }
+  }
 
-    a{
-        text-decoration: none;
+  a {
+    text-decoration: none;
+  }
+
+  .aditional-info {
+    margin-top: 1rem;
+
+    li {
+      width: 100%;
+      text-align: center;
+      background-color: c.$black3;
+      padding: 0.5rem 0;
+
+      .text-color {
+        font-size: 1.5rem;
+      }
     }
-
-    .aditional-info {
-        margin-top: 1rem;
-
-        li {
-            width: 100%;
-            text-align: center;
-            background-color: c.$black3;
-            padding: 0.5rem 0;
-
-            .text-color {
-                font-size: 1.5rem;
-            }
-        }
-    }
-
-
+  }
 }

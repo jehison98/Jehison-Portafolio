@@ -23,6 +23,9 @@ import "../assets/img/skills/react.svg";
 import "../assets/img/skills/redux.svg";
 import "../assets/img/skills/postgresql.svg";
 import "../assets/img/skills/sequelize.svg";
+import "../assets/img/skills/babel.svg";
+import "../assets/img/skills/github.svg";
+import "../assets/img/skills/expressjs.svg";
 
 //Favicon
 import "../assets/img/favicons/apple-touch-icon.png";
@@ -33,4 +36,5 @@ import "../assets/img/favicons/android-chrome-512x512.png";
 import "../assets/img/favicons/android-chrome-512x512.png";
 
 //CV
-import "../assets/PDF/Jehison-Gerardo-Gutierrez-de-la-Barrera-CV.pdf";
+import "../assets/PDF/Jehison-GB-CV-EN.pdf";
+import "../assets/PDF/Jehison-GB-CV-ES.pdf";

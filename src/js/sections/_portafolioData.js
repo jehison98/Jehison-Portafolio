@@ -6,7 +6,7 @@ export const portafolioInfo = [
     imgUrl: "./assets/img/portafolio/first-page.png",
     repository: "https://github.com/jehison98/first-page",
     websiteUrl: null,
-    description: `I develop this page to lear html, css and bootsrap. 
+    description: `I developed this page to lear html, css and bootsrap. 
         The page has a modern desing and includes all the necesary section to bring a good experience for the user.
         In this project I only needed to know basic of html, css and bootstrap
         `,
@@ -84,8 +84,8 @@ export const portafolioInfo = [
     imgUrl: "./assets/img/portafolio/My-portafolio.png",
     repository: "https://github.com/jehison98/Jehison-Portafolio",
     websiteUrl: "https://jehison98.github.io/JehisonGB-Portafolio/",
-    description: `I Develop this project cause I needed one place to show all my projects and more info about me. 
-    I use a lot of my experience and knowledge to develop this project. 
+    description: `I Developed this project cause I needed one place to show all my projects and more info about me. 
+    I used a lot of my experience and knowledge to develop this project. 
     I followed the best practices to have a clean code and a easy way to add new content`,
   },
 ];

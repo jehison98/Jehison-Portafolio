@@ -20,6 +20,11 @@ export const skillsData = [
     imgUrl: "./assets/img/skills/nodejs.svg",
   },
   {
+    id: 15,
+    name: "ExpressJS",
+    imgUrl: "./assets/img/skills/expressjs.svg",
+  },
+  {
     id: 5,
     name: "React",
     imgUrl: "./assets/img/skills/react.svg",
@@ -50,6 +55,11 @@ export const skillsData = [
     imgUrl: "./assets/img/skills/webpack.svg",
   },
   {
+    id: 13,
+    name: "BABEL",
+    imgUrl: "./assets/img/skills/babel.svg",
+  },
+  {
     id: 11,
     name: "Bootstrap",
     imgUrl: "./assets/img/skills/bootstrap.svg",
@@ -58,5 +68,10 @@ export const skillsData = [
     id: 12,
     name: "SASS",
     imgUrl: "./assets/img/skills/sass.svg",
+  },
+  {
+    id: 14,
+    name: "Github",
+    imgUrl: "./assets/img/skills/github.svg",
   },
 ];
