@@ -9,6 +9,7 @@ import "./sections/_navbar";
 import "./sections/_portafolio";
 import "./sections/_skills";
 import "./sections/_contact";
+import "./sections/_footer";
 
 //Bootstrap code (need to go after code that require some tooltip atribute)
 import "./_bootstrap";
